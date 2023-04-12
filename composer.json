@@ -1,0 +1,20 @@
+{
+    "name": "admin/sex-education",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "giathai2605",
+            "email": "chiyeu1nguoi.2003@gmail.com"
+        }
+    ],
+    "require": {
+        "phroute/phroute": "^2.2",
+        "illuminate/database": "^9.51",
+        "illuminate/events": "^9.51",
+        "eftec/bladeone": "^4.8"
+    }
+}
