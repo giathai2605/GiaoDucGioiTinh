@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+
+  <meta name="title" content="Sex Education">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Vietnamese">
+  <meta name="theme-color" content="#ffffff">
+  <link href="../../../resources/css/tailwind.css" rel="stylesheet">
+  <link href="../../../resources/css/custom.css" rel="stylesheet">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+  <header class="fixed w-full">
+    <nav class="glassmorphism border-gray-200 py-2.5 dark:bg-gray-900">
+      <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+        <div class="flex items-center lg:order-2">
+          <!-- -------------------Login - Signup ---------------------->
+          <div class="login__signup gap-2 items-center">
+            <div class="dropdown dropdown-end">
+              <label tabindex="0" class="mb-1">
+                <img class="w-10 h-10 object-cover object-center rounded-full"
+                  src="../../../resources/images/banner.png" alt="">
+              </label>
+              <ul tabindex="0"
+                class="dropdown-content menu p-2 shadow bg-white text-gray-900 dark:bg-base-100 rounded-box whitespace-nowrap w-48">
+                <li><a>Đăng nhập</a></li>
+                <li><a>Đăng ký</a></li>
+                <li><a>Quên mật khẩu</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- -------------------logged--------------------------- -->
+          <div class="login__signup hidden gap-2 items-center">
+            <div class="dropdown dropdown-end">
+              <label tabindex="0" class="mb-1">
+                <img class="w-10 h-10 object-cover object-center rounded-full"
+                  src="../../../resources/images/banner.png" alt="">
+              </label>
+              <ul tabindex="0"
+                class="dropdown-content menu p-2 shadow bg-white text-gray-900 dark:bg-base-100 rounded-box whitespace-nowrap w-48">
+                <li><a>Tài khoản</a></li>
+                <li><a>Đăng xuất</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- -------------------Menu mobile button---------------------->
+          <button data-collapse-toggle="mobile-menu-2" type="button"
+            class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="mobile-menu-2" aria-expanded="false">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"></path>
+            </svg>
+            <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+        <!--  -------------------Logo---------------------->
+        <a href="#" class="logo flex items-center">
+          <img src="../../../resources/images/logo.png" class="h-6 mr-3 sm:h-9" alt="Sex Education Logo" />
+          <span
+            class="self-center hidden lg:block text-sm md:text-lg font-semibold whitespace-nowrap text-gray-900 dark:text-white">SexEducation</span>
+        </a>
+        <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+          <ul class="flex flex-col items-center mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+            <li>
+              <a href="#"
+                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:borde">Trang
+                chủ</a>
+            </li>
+            <li>
+              <div class="dropdown dropdown-end text-gray-900">
+                <label tabindex="0" class="rounded-btn ">Kiến thức</label>
+                <ul tabindex="0" class="menu dropdown-content p-2 shadow rounded-box mt-4 whitespace-nowrap bg-white">
+                  <li class="group relative">
+                    <span>Giáo dục giới tính</span>
+                    <ul class="absolute hidden group-hover:block p-2 shadow rounded-box bg-white">
+                      <li><a href="#">Nam giới</a></li>
+                      <li><a href="#">Nữ giới</a></li>
+                      <li><a href="#">LGBT</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Quan hệ an toàn</a></li>
+                  <li><a href="#">Bệnh đường tình dục</a></li>
+                  <li><a href="#">Sức khỏe sinh sản</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#"
+                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Cộng
+                đồng</a>
+            </li>
+            <li>
+              <div class="dropdown dropdown-bottom text-gray-900">
+                <label tabindex="0" class="m-1">Quyền lợi & Pháp luật</label>
+                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-white dark:bg-base-100 rounded-box ">
+                  <li><a href="#">Luật giới tính</a></li>
+                  <li><a class="whitespace-nowrap" href="#">Luật hôn nhân & gia đình</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- -------------------Menu user---------------------->
+        <div class="user">
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- -------------------banner---------------------->
+  <section class="bg-white dark:bg-gray-900">
+    <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0  lg:py-16 lg:grid-cols-12 lg:pt-28">
+      <div class="mr-auto md:px-5 lg:px-10 place-self-center lg:col-span-7 ">
+        <h1
+          class="max-w-2xl mb-4 text-4xl font-extrabold leading-10  md:text-5xl xl:text-6xl text-gray-900 dark:text-white">
+          Hãy tự trang bị kiến thức cho bản thân trước khi quá muộn.</h1>
+        <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg  dark:text-gray-400">Giáo dục
+          giới tính cho thanh thiếu niên - Hiểu về sức khỏe sinh sản và quan hệ tình dục an toàn.
+        </p>
+
+      </div>
+      <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+        <img src="../../../resources/images/banner.png" alt="hero image">
+      </div>
+    </div>
+  </section>
+
+  <!-- -------------------------------News------------------------------ -->
+  <section class="text-gray-600  body-font bg-gray-50">
+    <div class="container px-5 py-10 mx-auto flex flex-col justify-center gap-3">
+      <h2
+        class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">
+        Tin tức nổi bật</h2>
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-52 md:h-40 w-full object-cover object-center" src="../../../resources/images/blog1.jpg"
+              alt="blog">
+            <div class="p-4">
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-2">Tính dục: 7 thuật ngữ thông dụng bạn nên
+                biết</h1>
+              <p class="leading-relaxed text-xs sm:text-sm mb-3 limited__content-4">Hầu hết chúng ta khi lớn lên đã được
+                nghe về những
+                thuật
+                ngữ tính dục đơn
+                giản. Tuy nhiên, với sự phát triển thần tốc
+                của công nghệ, thông...</p>
+              <div class="flex items-center flex-wrap ">
+                <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">Xem thêm
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span
+                  class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ------------------------------------------------------- -->
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-52 md:h-40 w-full object-cover object-center" src="../../../resources/images/blog1.jpg"
+              alt="blog">
+            <div class="p-4">
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-2">Tính dục: 7 thuật ngữ thông dụng bạn nên
+                biết</h1>
+              <p class="leading-relaxed text-xs sm:text-sm mb-3 limited__content-4">Hầu hết chúng ta khi lớn lên đã được
+                nghe về những
+                thuật
+                ngữ tính dục đơn
+                giản. Tuy nhiên, với sự phát triển thần tốc
+                của công nghệ, thông...</p>
+              <div class="flex items-center flex-wrap ">
+                <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">Xem thêm
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span
+                  class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- --------------------------------------------------- -->
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-52 md:h-40 w-full object-cover object-center" src="../../../resources/images/blog1.jpg"
+              alt="blog">
+            <div class="p-4">
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-2">Tính dục: 7 thuật ngữ thông dụng bạn nên
+                biết</h1>
+              <p class="leading-relaxed text-xs sm:text-sm mb-3 limited__content-4">Hầu hết chúng ta khi lớn lên đã được
+                nghe về những
+                thuật
+                ngữ tính dục đơn
+                giản. Tuy nhiên, với sự phát triển thần tốc
+                của công nghệ, thông...</p>
+              <div class="flex items-center flex-wrap ">
+                <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0">Xem thêm
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span
+                  class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-group bg-white border mx-auto rounded-md">
+        <button class="btn  btn-ghost">1</button>
+        <button class="btn btn-primary rounded-md">2</button>
+        <button class="btn btn-ghost">3</button>
+        <button class="btn btn-ghost">4</button>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!-- --------------------------------------FAQ---------------------------------------- -->
+  <section class="bg-white dark:bg-gray-900 py-5">
+    <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-24 lg:px-6 ">
+      <h2
+        class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">
+        Câu hỏi thường gặp</h2>
+      <div class="max-w-screen-md mx-auto">
+        <div id="accordion-flush" data-accordion="collapse"
+          data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
+          data-inactive-classes="text-gray-500 dark:text-gray-400">
+          <h3 id="accordion-flush-heading-1">
+            <button type="button"
+              class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-900 bg-white border-b border-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:text-white"
+              data-accordion-target="#accordion-flush-body-1" aria-expanded="true"
+              aria-controls="accordion-flush-body-1">
+              <span>Tại sao chúng ta cần giáo dục giới tính?</span>
+              <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h3>
+          <div id="accordion-flush-body-1" class="" aria-labelledby="accordion-flush-heading-1">
+            <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+              <p class="mb-2 text-gray-500 dark:text-gray-400">Giáo dục giới tính là cách để giúp chúng ta hiểu rõ hơn
+                về cơ thể, tình yêu, quan hệ tình dục và giới tính. Nó cũng giúp
+                chúng ta học cách đối xử và tôn trọng người khác một cách trưởng thành và đúng đắn. Giáo dục giới tính
+                cũng là cách để
+                ngăn chặn sự bất bình đẳng và kỳ thị giới tính.</p>
+            </div>
+          </div>
+          <h3 id="accordion-flush-heading-2">
+            <button type="button"
+              class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
+              data-accordion-target="#accordion-flush-body-2" aria-expanded="false"
+              aria-controls="accordion-flush-body-2">
+              <span>Khi nào nên bắt đầu giáo dục giới tính cho trẻ em?</span>
+              <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h3>
+          <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+            <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+              <p class="mb-2 text-gray-500 dark:text-gray-400">Giáo dục giới tính nên được bắt đầu khi trẻ còn rất nhỏ,
+                bằng cách sử dụng các sách vở, đồ chơi và hoạt động phù hợp với
+                độ tuổi. Từ đó, trẻ sẽ hiểu về các khái niệm cơ bản về giới tính và tình yêu. Khi trẻ lớn hơn, chúng ta
+                nên cung cấp cho
+                họ thông tin chi tiết hơn về sức khỏe sinh sản và giới tính.</p>
+            </div>
+          </div>
+
+          <h3 id="accordion-flush-heading-3">
+            <button type="button"
+              class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
+              data-accordion-target="#accordion-flush-body-3" aria-expanded="false"
+              aria-controls="accordion-flush-body-3">
+              <span>Làm thế nào để giáo dục giới tính cho thanh thiếu niên một cách an toàn và lành mạnh?</span>
+              <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h3>
+          <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+            <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+              <p class="mb-2 text-gray-500 dark:text-gray-400">Giáo dục giới tính cho thanh thiếu niên cần phải được
+                thực hiện một cách đầy đủ và kỹ lưỡng, bao gồm các thông tin về
+                sức khỏe sinh sản và quan hệ tình dục an toàn. Chúng ta cần giải đáp những thắc mắc của thanh thiếu niên
+                một cách trung
+                thực và tôn trọng quyền riêng tư của họ. Ngoài ra, cần phải cung cấp cho họ kiến thức về giới tính đa
+                dạng và giúp họ
+                hiểu rõ hơn về sự khác biệt giới tính.</p>
+            </div>
+          </div>
+
+          <h3 id="accordion-flush-heading-4">
+            <button type="button"
+              class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400"
+              data-accordion-target="#accordion-flush-body-4" aria-expanded="false"
+              aria-controls="accordion-flush-body-4">
+              <span>Làm thế nào để giáo dục giới tính cho các đối tượng đặc biệt như người tàn tật, người già và người
+                LGBT+?</span>
+              <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </h3>
+          <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
+            <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+              <p class="mb-2 text-gray-500 dark:text-gray-400">Giáo dục giới tính cho các đối tượng đặc biệt cần phải
+                được tùy chỉnh và linh hoạt để phù hợp với nhu cầu và tình trạng
+                của họ. Ví dụ, chúng ta có thể sử dụng các phương tiện truyền thông thích hợp cho người tàn tật hoặc
+                giáo dục giới tính
+                cho người già bằng cách sử dụng các tài liệu được thiết kế đặc biệt. Đối với người LGBT+, chúng ta cần
+                cung cấp cho họ
+                thông tin về quyền của họ và giúp họ hiểu rõ hơn về giới tính đa dạng.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center justify-center mt-8 space-y-4">
+          <a href="#"
+            class="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white btn-primary border border-transparent rounded-md shadow-sm hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#9921E8]">
+            Tìm hiểu thêm
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -----------------------------Sologan----------------------------------- -->
+  <section class="bg-gray-50 dark:bg-gray-800">
+    <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
+      <figure class="max-w-screen-md mx-auto">
+        <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+            fill="currentColor" />
+        </svg>
+        <blockquote>
+          <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">"
+            Giáo dục giới tính không chỉ là vấn đề của trẻ em và thanh thiếu niên, mà là nhu cầu của mọi người để xây
+            dựng một xã
+            hội lành mạnh và trưởng thành.
+            "</p>
+        </blockquote>
+      </figure>
+    </div>
+  </section>
+
+  <footer class="footer p-10 bg-gradient-purple text-white dark:bg-base-200 dark:text-base-content">
+    <div>
+      <span class="footer-title">Kiến thức</span>
+      <a class="link link-hover">LGBT</a>
+      <a class="link link-hover">Giáo dục giới tính nam</a>
+      <a class="link link-hover">Giáo dục giới tính nữ</a>
+      <a class="link link-hover">Quan hệ an toàn</a>
+      <a class="link link-hover">Bệnh đường tình dục</a>
+      <a class="link link-hover">Sức khỏe sinh sản</a>
+    </div>
+    <div>
+      <span class="footer-title">Quyền lợi & Pháp luật</span>
+      <a class="link link-hover">Luật giới tính</a>
+      <a class="link link-hover">Luật hôn nhân & gia đình</a>
+    </div>
+    <div>
+      <span class="footer-title">Liên hệ</span>
+      <p class="link link-hover">Tòa nhà FPOLY - Trịnh Văn Bô - Nam Từ Liêm - Hà Nội</p>
+      <p class="link link-hover">Email: sexeducation@dev.edu.vn</p>
+      <p class="link link-hover">Hotline: 098 765 4321</p>
+    </div>
+    <div>
+      <a href="#" class="flex items-center justify-center mb-3 text-sm font-semibold text-white dark:text-white">
+        <img src="../../../resources/images/logo.png" class="h-6 mr-3 sm:h-9" alt="SexEducation™" />
+        <span>SexEducation™</span>
+      </a>
+      <div class="form-control w-80">
+        <label class="label">
+          <span class="text-white">Nhập email để đăng ký nhận tin tức</span>
+        </label>
+        <div class="relative">
+          <input type="text" placeholder="Địa chỉ email..."
+            class="input text-gray-900 bg-white input-bordered w-full pr-16" />
+          <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Đăng ký</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+</body>
+
+</html>
