@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Account</title>
+
+    <meta name="title" content="Sex Education">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="Vietnamese">
+    <meta name="theme-color" content="#ffffff">
+    <link href="../../../resources/css/tailwind.css" rel="stylesheet">
+    <link href="../../../resources/css/custom.css" rel="stylesheet">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+    <header class="fixed w-full z-40">
+        <nav class="glassmorphism border-gray-200 py-2.5 dark:bg-gray-900">
+            <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+                <div class="flex items-center lg:order-2">
+                    <!-- -------------------Login - Signup ---------------------->
+                    <div class="login__signup gap-2 items-center">
+                        <div class="dropdown dropdown-end">
+                            <label tabindex="0" class="mb-1">
+                    <img class="w-10 h-10 object-cover object-center rounded-full"
+                      src="../../../resources/images/banner.png" alt="">
+                  </label>
+                            <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-white text-gray-900 dark:bg-base-100 rounded-box whitespace-nowrap w-48">
+                                <li><a>Đăng nhập</a></li>
+                                <li><a>Đăng ký</a></li>
+                                <li><a>Quên mật khẩu</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- -------------------logged--------------------------- -->
+                    <div class="login__signup hidden gap-2 items-center">
+                        <div class="dropdown dropdown-end">
+                            <label tabindex="0" class="mb-1">
+                    <img class="w-10 h-10 object-cover object-center rounded-full"
+                      src="../../../resources/images/banner.png" alt="">
+                  </label>
+                            <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-white text-gray-900 dark:bg-base-100 rounded-box whitespace-nowrap w-48">
+                                <li><a>Tài khoản</a></li>
+                                <li><a>Đăng xuất</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- -------------------Menu mobile button---------------------->
+                    <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="mobile-menu-2" aria-expanded="false">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    clip-rule="evenodd"></path>
+                </svg>
+              </button>
+                </div>
+                <!--  -------------------Logo---------------------->
+                <a href="#" class="logo flex items-center">
+                    <img src="../../../resources/images/logo.png" class="h-6 mr-3 sm:h-9" alt="Sex Education Logo" />
+                    <span class="self-center hidden lg:block text-sm md:text-lg font-semibold whitespace-nowrap text-gray-900 dark:text-white">SexEducation</span>
+                </a>
+                <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                    <ul class="flex flex-col items-center mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <li>
+                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:borde">Trang
+                    chủ</a>
+                        </li>
+                        <li>
+                            <div class="dropdown dropdown-end text-gray-900">
+                                <label tabindex="0" class="rounded-btn ">Kiến thức</label>
+                                <ul tabindex="0" class="menu dropdown-content p-2 shadow rounded-box mt-4 whitespace-nowrap bg-white">
+                                    <li class="group relative">
+                                        <span>Giáo dục giới tính</span>
+                                        <ul class="absolute hidden group-hover:block p-2 shadow rounded-box bg-white">
+                                            <li><a href="#">Nam giới</a></li>
+                                            <li><a href="#">Nữ giới</a></li>
+                                            <li><a href="#">LGBT</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Quan hệ an toàn</a></li>
+                                    <li><a href="#">Bệnh đường tình dục</a></li>
+                                    <li><a href="#">Sức khỏe sinh sản</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Cộng
+                    đồng</a>
+                        </li>
+                        <li>
+                            <div class="dropdown dropdown-bottom text-gray-900">
+                                <label tabindex="0" class="m-1">Quyền lợi & Pháp luật</label>
+                                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-white dark:bg-base-100 rounded-box ">
+                                    <li><a href="#">Luật giới tính</a></li>
+                                    <li><a class="whitespace-nowrap" href="#">Luật hôn nhân & gia đình</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- -------------------Menu user---------------------->
+                <div class="user">
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="bg-white dark:bg-gray-900 z-50">
+        <div class="bg-white relative lg:py-20">
+            <div class="flex flex-col items-center justify-between pt-0 pr-10 pb-0 pl-10 mt-0 mr-auto mb-0 ml-auto max-w-7xl
+                    xl:px-5 lg:flex-row">
+                <div class="flex flex-col items-center w-full py-5 lg:pt-20 lg:flex-row">
+                    <div class="w-full bg-cover relative max-w-md lg:max-w-2xl lg:w-7/12 sm:pt-0 pt-20">
+                        <div class="flex flex-col items-center justify-center w-full h-full relative lg:pr-10">
+                            <img src="https://scontent.fhan14-2.fna.fbcdn.net/v/t39.30808-1/338249911_206355952002567_279017635255701344_n.jpg?stp=c0.53.320.320a_dst-jpg_p320x320&_nc_cat=108&ccb=1-7&_nc_sid=7206a8&_nc_ohc=_0N8vs80W1QAX-6xAVg&_nc_ht=scontent.fhan14-2.fna&oh=00_AfClwZ2BUmFa8pfEvwfzB2wK6ne75s8D5MgzvSDpbRHyvA&oe=643DB02F"
+                                class="rounded-full" />
+                        </div>
+                    </div>
+                    <div class="w-full mt-20 mr-0 mb-10 ml-0 relative z-10 max-w-2xl lg:mt-0 lg:w-5/12">
+                        <div class="flex flex-col items-start justify-start pt-10 pr-10 pb-10 pl-10 bg-white shadow-2xl rounded-xl
+                          relative z-10">
+                            <p class="w-full sm:text-4xl text-2xl font-medium text-center leading-snug font-serif">Cập nhật tài khoản</p>
+                            <div class="w-full mt-6 mr-0 mb-0 ml-0 relative space-y-8">
+                                <div class="relative">
+                                    <p class="bg-white pt-0 pr-2 pb-0 pl-2 -mt-3 mr-0 mb-0 ml-2 font-medium text-gray-600
+                                absolute">Tên đăng nhập</p>
+                                    <input placeholder="John" type="text" class="border placeholder-gray-400 focus:outline-none
+                                focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
+                                border-gray-300 rounded-md" />
+                                </div>
+                                <div class="relative">
+                                    <p class="bg-white pt-0 pr-2 pb-0 pl-2 -mt-3 mr-0 mb-0 ml-2 font-medium text-gray-600 absolute">Email</p>
+                                    <input placeholder="123@ex.com" type="text" class="border placeholder-gray-400 focus:outline-none
+                                focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
+                                border-gray-300 rounded-md" />
+                                </div>
+                                <div class="relative">
+                                    <p class="bg-white pt-0 pr-2 pb-0 pl-2 -mt-3 mr-0 mb-0 ml-2 font-medium text-gray-600
+                                absolute">Ngày sinh</p>
+                                    <input placeholder="Date" type="date" class="border placeholder-gray-400 focus:outline-none
+                                focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
+                                border-gray-300 rounded-md" />
+                                </div>
+                                <div class="relative">
+                                    <p class="bg-white pt-0 pr-2 pb-0 pl-2 -mt-3 mr-0 mb-0 ml-2 font-medium text-gray-600
+                                absolute">Số điện thoại</p>
+                                    <input placeholder="0123456789" type="tel" class="border placeholder-gray-400 focus:outline-none
+                                focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
+                                border-gray-300 rounded-md" />
+                                </div>
+                                <div class="relative">
+                                    <a class="w-full btn btn-primary p-2">Cập nhật</a>
+                                </div>
+                            </div>
+                        </div>
+                        <svg viewbox="0 0 91 91" class="absolute top-0 left-0 z-0 w-32 h-32 -mt-12 -ml-12 text-yellow-300
+                          fill-current"><g stroke="none" strokewidth="1" fillrule="evenodd"><g fillrule="nonzero"><g><g><circle
+                          cx="3.261" cy="3.445" r="2.72"/><circle cx="15.296" cy="3.445" r="2.719"/><circle cx="27.333" cy="3.445"
+                          r="2.72"/><circle cx="39.369" cy="3.445" r="2.72"/><circle cx="51.405" cy="3.445" r="2.72"/><circle cx="63.441"
+                          cy="3.445" r="2.72"/><circle cx="75.479" cy="3.445" r="2.72"/><circle cx="87.514" cy="3.445" r="2.719"/></g><g
+                          transform="translate(0 12)"><circle cx="3.261" cy="3.525" r="2.72"/><circle cx="15.296" cy="3.525"
+                          r="2.719"/><circle cx="27.333" cy="3.525" r="2.72"/><circle cx="39.369" cy="3.525" r="2.72"/><circle
+                          cx="51.405" cy="3.525" r="2.72"/><circle cx="63.441" cy="3.525" r="2.72"/><circle cx="75.479" cy="3.525"
+                          r="2.72"/><circle cx="87.514" cy="3.525" r="2.719"/></g><g transform="translate(0 24)"><circle cx="3.261"
+                          cy="3.605" r="2.72"/><circle cx="15.296" cy="3.605" r="2.719"/><circle cx="27.333" cy="3.605" r="2.72"/><circle
+                          cx="39.369" cy="3.605" r="2.72"/><circle cx="51.405" cy="3.605" r="2.72"/><circle cx="63.441" cy="3.605"
+                          r="2.72"/><circle cx="75.479" cy="3.605" r="2.72"/><circle cx="87.514" cy="3.605" r="2.719"/></g><g
+                          transform="translate(0 36)"><circle cx="3.261" cy="3.686" r="2.72"/><circle cx="15.296" cy="3.686"
+                          r="2.719"/><circle cx="27.333" cy="3.686" r="2.72"/><circle cx="39.369" cy="3.686" r="2.72"/><circle
+                          cx="51.405" cy="3.686" r="2.72"/><circle cx="63.441" cy="3.686" r="2.72"/><circle cx="75.479" cy="3.686"
+                          r="2.72"/><circle cx="87.514" cy="3.686" r="2.719"/></g><g transform="translate(0 49)"><circle cx="3.261"
+                          cy="2.767" r="2.72"/><circle cx="15.296" cy="2.767" r="2.719"/><circle cx="27.333" cy="2.767" r="2.72"/><circle
+                          cx="39.369" cy="2.767" r="2.72"/><circle cx="51.405" cy="2.767" r="2.72"/><circle cx="63.441" cy="2.767"
+                          r="2.72"/><circle cx="75.479" cy="2.767" r="2.72"/><circle cx="87.514" cy="2.767" r="2.719"/></g><g
+                          transform="translate(0 61)"><circle cx="3.261" cy="2.846" r="2.72"/><circle cx="15.296" cy="2.846"
+                          r="2.719"/><circle cx="27.333" cy="2.846" r="2.72"/><circle cx="39.369" cy="2.846" r="2.72"/><circle
+                          cx="51.405" cy="2.846" r="2.72"/><circle cx="63.441" cy="2.846" r="2.72"/><circle cx="75.479" cy="2.846"
+                          r="2.72"/><circle cx="87.514" cy="2.846" r="2.719"/></g><g transform="translate(0 73)"><circle cx="3.261"
+                          cy="2.926" r="2.72"/><circle cx="15.296" cy="2.926" r="2.719"/><circle cx="27.333" cy="2.926" r="2.72"/><circle
+                          cx="39.369" cy="2.926" r="2.72"/><circle cx="51.405" cy="2.926" r="2.72"/><circle cx="63.441" cy="2.926"
+                          r="2.72"/><circle cx="75.479" cy="2.926" r="2.72"/><circle cx="87.514" cy="2.926" r="2.719"/></g><g
+                          transform="translate(0 85)"><circle cx="3.261" cy="3.006" r="2.72"/><circle cx="15.296" cy="3.006"
+                          r="2.719"/><circle cx="27.333" cy="3.006" r="2.72"/><circle cx="39.369" cy="3.006" r="2.72"/><circle
+                          cx="51.405" cy="3.006" r="2.72"/><circle cx="63.441" cy="3.006" r="2.72"/><circle cx="75.479" cy="3.006"
+                          r="2.72"/><circle cx="87.514" cy="3.006" r="2.719"/></g></g></g></g></svg>
+                        <svg viewbox="0 0 91 91" class="absolute bottom-0 right-0 z-0 w-32 h-32 -mb-12 -mr-12 text-indigo-500
+                          fill-current"><g stroke="none" strokewidth="1" fillrule="evenodd"><g fillrule="nonzero"><g><g><circle
+                          cx="3.261" cy="3.445" r="2.72"/><circle cx="15.296" cy="3.445" r="2.719"/><circle cx="27.333" cy="3.445"
+                          r="2.72"/><circle cx="39.369" cy="3.445" r="2.72"/><circle cx="51.405" cy="3.445" r="2.72"/><circle cx="63.441"
+                          cy="3.445" r="2.72"/><circle cx="75.479" cy="3.445" r="2.72"/><circle cx="87.514" cy="3.445" r="2.719"/></g><g
+                          transform="translate(0 12)"><circle cx="3.261" cy="3.525" r="2.72"/><circle cx="15.296" cy="3.525"
+                          r="2.719"/><circle cx="27.333" cy="3.525" r="2.72"/><circle cx="39.369" cy="3.525" r="2.72"/><circle
+                          cx="51.405" cy="3.525" r="2.72"/><circle cx="63.441" cy="3.525" r="2.72"/><circle cx="75.479" cy="3.525"
+                          r="2.72"/><circle cx="87.514" cy="3.525" r="2.719"/></g><g transform="translate(0 24)"><circle cx="3.261"
+                          cy="3.605" r="2.72"/><circle cx="15.296" cy="3.605" r="2.719"/><circle cx="27.333" cy="3.605" r="2.72"/><circle
+                          cx="39.369" cy="3.605" r="2.72"/><circle cx="51.405" cy="3.605" r="2.72"/><circle cx="63.441" cy="3.605"
+                          r="2.72"/><circle cx="75.479" cy="3.605" r="2.72"/><circle cx="87.514" cy="3.605" r="2.719"/></g><g
+                          transform="translate(0 36)"><circle cx="3.261" cy="3.686" r="2.72"/><circle cx="15.296" cy="3.686"
+                          r="2.719"/><circle cx="27.333" cy="3.686" r="2.72"/><circle cx="39.369" cy="3.686" r="2.72"/><circle
+                          cx="51.405" cy="3.686" r="2.72"/><circle cx="63.441" cy="3.686" r="2.72"/><circle cx="75.479" cy="3.686"
+                          r="2.72"/><circle cx="87.514" cy="3.686" r="2.719"/></g><g transform="translate(0 49)"><circle cx="3.261"
+                          cy="2.767" r="2.72"/><circle cx="15.296" cy="2.767" r="2.719"/><circle cx="27.333" cy="2.767" r="2.72"/><circle
+                          cx="39.369" cy="2.767" r="2.72"/><circle cx="51.405" cy="2.767" r="2.72"/><circle cx="63.441" cy="2.767"
+                          r="2.72"/><circle cx="75.479" cy="2.767" r="2.72"/><circle cx="87.514" cy="2.767" r="2.719"/></g><g
+                          transform="translate(0 61)"><circle cx="3.261" cy="2.846" r="2.72"/><circle cx="15.296" cy="2.846"
+                          r="2.719"/><circle cx="27.333" cy="2.846" r="2.72"/><circle cx="39.369" cy="2.846" r="2.72"/><circle
+                          cx="51.405" cy="2.846" r="2.72"/><circle cx="63.441" cy="2.846" r="2.72"/><circle cx="75.479" cy="2.846"
+                          r="2.72"/><circle cx="87.514" cy="2.846" r="2.719"/></g><g transform="translate(0 73)"><circle cx="3.261"
+                          cy="2.926" r="2.72"/><circle cx="15.296" cy="2.926" r="2.719"/><circle cx="27.333" cy="2.926" r="2.72"/><circle
+                          cx="39.369" cy="2.926" r="2.72"/><circle cx="51.405" cy="2.926" r="2.72"/><circle cx="63.441" cy="2.926"
+                          r="2.72"/><circle cx="75.479" cy="2.926" r="2.72"/><circle cx="87.514" cy="2.926" r="2.719"/></g><g
+                          transform="translate(0 85)"><circle cx="3.261" cy="3.006" r="2.72"/><circle cx="15.296" cy="3.006"
+                          r="2.719"/><circle cx="27.333" cy="3.006" r="2.72"/><circle cx="39.369" cy="3.006" r="2.72"/><circle
+                          cx="51.405" cy="3.006" r="2.72"/><circle cx="63.441" cy="3.006" r="2.72"/><circle cx="75.479" cy="3.006"
+                          r="2.72"/><circle cx="87.514" cy="3.006" r="2.719"/></g></g></g></g></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer p-10 bg-gradient-purple text-white dark:bg-base-200 dark:text-base-content">
+        <div>
+            <span class="footer-title">Kiến thức</span>
+            <a class="link link-hover">LGBT</a>
+            <a class="link link-hover">Giáo dục giới tính nam</a>
+            <a class="link link-hover">Giáo dục giới tính nữ</a>
+            <a class="link link-hover">Quan hệ an toàn</a>
+            <a class="link link-hover">Bệnh đường tình dục</a>
+            <a class="link link-hover">Sức khỏe sinh sản</a>
+        </div>
+        <div>
+            <span class="footer-title">Quyền lợi & Pháp luật</span>
+            <a class="link link-hover">Luật giới tính</a>
+            <a class="link link-hover">Luật hôn nhân & gia đình</a>
+        </div>
+        <div>
+            <span class="footer-title">Liên hệ</span>
+            <p class="link link-hover">Tòa nhà FPOLY - Trịnh Văn Bô - Nam Từ Liêm - Hà Nội</p>
+            <p class="link link-hover">Email: sexeducation@dev.edu.vn</p>
+            <p class="link link-hover">Hotline: 098 765 4321</p>
+        </div>
+        <div>
+            <a href="#" class="flex items-center justify-center mb-3 text-sm font-semibold text-white dark:text-white">
+                <img src="../../../resources/images/logo.png" class="h-6 mr-3 sm:h-9" alt="SexEducation™" />
+                <span>SexEducation™</span>
+            </a>
+            <div class="form-control w-80">
+                <label class="label">
+              <span class="text-white">Nhập email để đăng ký nhận tin tức</span>
+            </label>
+                <div class="relative">
+                    <input type="text" placeholder="Địa chỉ email..." class="input text-gray-900 bg-white input-bordered w-full pr-16" />
+                    <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Đăng ký</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+</body>
+
+</html>
